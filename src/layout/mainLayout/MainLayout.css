@@ -1,0 +1,88 @@
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.sec-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px 100px;
+}
+.main-left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+}
+
+.main-left-title {
+  font-size: 26px;
+  font-weight: 600;
+}
+.main-left-title h3 {
+  font-size: 36px;
+  margin-bottom: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-left-text {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.main-left p {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.social {
+  margin-top: 50px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+}
+.social-container {
+  display: flex; /* İkonları yan-yana düzmək üçün */
+  gap: 15px; /* İkonların öz aralarında məsafə olması üçün */
+}
+/* 
+///sag teref */
+
+.main-right {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.hero-image {
+  /* Figure-un default margin-ini sıfırla */
+
+  /* Şəklin maksimum eni */
+  width: 100%;
+  max-width: 400px;
+  height: 450px;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 100%; /* Proporsiyanı qoru */
+  border-radius: 20px; /* Küncləri yumşalt */
+}
+.social-container a {
+  cursor: pointer;
+  transition: transform 0.2s; /* Ü
+}
+ zərinə gələndə animasiya üçün */
+}
+
+.social-container a:hover {
+  transform: scale(1.2); /* Üzərinə gələndə bir az böyüsün */
+}
